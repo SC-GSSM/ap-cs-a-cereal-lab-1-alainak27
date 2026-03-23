@@ -39,7 +39,7 @@ public class CerealRunner
 
                 // create a new Cereal object, and add it to the ArrayList
                 Cereal bob = new Cereal(zero, two, three, four, five);
-                cereals.add(mike);
+                cereals.add(bob);
 
             }
             scan.close();
