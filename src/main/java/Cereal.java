@@ -42,12 +42,14 @@ public class Cereal
         return cups;
     }
     
+    
 
     /* toString method returns the values stored in the instance variables
        concatenated in a sentence starting with "Cereal: " */
        public String toString(){
         return "Cereal: " + name + ", " + calories + ", " + carbohydrates + ", " +  fiber + ", " + cups + ".";
        }
+
 
 }
 
