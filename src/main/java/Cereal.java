@@ -1,24 +1,24 @@
 /**
  * Cereal.java
  *
- * @author – Your name
- * @author – Class period
+ * @author – Madeline Kemper
+ * @author – 8am MWF
  *
  */
 public class Cereal
 {
-
-
     // private instance variables to hold info about a cereal from the data set
     // the name, calories, fiber, carbohydrates, and cups
-    private String name;
-    private double calories;
-    private double fiber;
-    private double carbohydrates;
-    private double cups;
+
+     private String name;
+     private double calories;
+     private double fiber;
+     private double carbohydrates;
+     private double cups;
+
 
     // constructor that creates a cereal object
-    public Cereal(String name, double calories, double fiber, double carbohydrates, double cups){
+    public Cereal(String name, double calories, double fiber, double carbohydrates ,double cups){
         this.calories = calories;
         this.name = name;
         this.fiber = fiber;
@@ -26,6 +26,7 @@ public class Cereal
         this.cups = cups;
 
     }
+
 
     // accessor methods for each instance variable
     public String getName(){
@@ -43,16 +44,14 @@ public class Cereal
     public double getCups(){
         return cups;
     }
-    
-
 
     /* toString method returns the values stored in the instance variables
        concatenated in a sentence starting with "Cereal: " */
        public String toString(){
-        return "Cereal: " + name + ", " + calories + ", " + carbohydrates + ", " +  fiber + ", " + cups + ".";
+        return "Cereal: " + name +", " + calories + ", " + carbohydrates + ", " + fiber + ", " + cups + ".";
        }
 
-
 }
+
 
 

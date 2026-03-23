@@ -12,7 +12,7 @@ public class CerealRunner
     public CerealRunner(String fileName)
     {
         // instantiate the ArrayList
-        this.cereals = newArrayList<Cereal>();
+        this.cereals = new ArrayList<Cereal>();
 
         try
         {
@@ -25,9 +25,10 @@ public class CerealRunner
                 // use the split method to parse the data into an array of
                 //   String objects
                 String[] data = myStr.split(",");
+               
 
                 String zero = data[0];
-
+               
                 double two = Double.parseDouble(data[1]);
                 double three = Double.parseDouble(data[2]);
                 double four = Double.parseDouble(data[3]);
@@ -62,4 +63,5 @@ public class CerealRunner
     }
 
 }
+
 
