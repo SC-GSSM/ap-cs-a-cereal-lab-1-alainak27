@@ -1,8 +1,8 @@
 /**
  * Cereal.java
  *
- * @author – Madeline Kemper
- * @author – 8am MWF
+ * @author – Alaina King
+ * @author – 10 am
  *
  */
 public class Cereal
